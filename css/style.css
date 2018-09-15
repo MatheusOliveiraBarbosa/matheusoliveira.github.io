@@ -2,6 +2,60 @@
     margin: 0;
     padding: 0;
 }
+/*Learning media queries*/
+/* Mobile  -- TO-DO UPGRADE*/
+@media (max-width: 480px){
+    body{
+        font-size: 8pt;
+    }
+
+    header{
+        background-color: #f8fafa;
+        position: fixed;
+        top: 0;
+        left: 0;
+        border-bottom: 2px solid #e1e3e3;
+        height: 55px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .img_topics{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .jobs_own{
+        padding: 5px;
+        margin: 5px auto 5px auto;
+        flex: auto;
+    }
+  
+    .jobs_img{
+        position: absolute;
+        visibility: hidden;
+
+    }
+
+    h1, p, h2{
+        padding: 5px;
+        font-size: 9pt;
+    }
+
+    h2{
+        font-size: 12pt;
+        text-transform: uppercase;
+    }
+ 
+    .topics{
+        width: 100%;
+        text-align: justify;
+        color: #000;
+    }
+    
+}
+/*END MEDIA QUERIE*/
 body{
     background: #ecf0f1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
