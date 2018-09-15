@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ecf0f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#4f5050;
+}
+footer{
+    padding: 15px;
+    border-top: 2px solid #e1e3e3;
+    text-align: center;
+    font-size: 10pt;
+    background: #f8fafa;
+}
+
+header{
+    background-color: #f8fafa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #e1e3e3;
+    height: 55px;
+    width: 100%;
+    text-align: center;
+    
+}
+#conteudo{
+    /**margin-top: 55px;**/
+    font-size: 18px;
+    opacity: 1;
+    
+}
+
+h1, p, h2{
+    margin: 0;
+    padding: 10px;
+}
+
+
+/**ARTICLES**/
+
+span{
+    color: #1d1d1d;
+}
+
+h2{
+    font-size: 32pt;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+article{
+    /**background-color: #f8fafa;**/
+    background-color: rgba(248, 250, 250, 0.7);
+    margin: 0;
+    position: absolute;
+    border-width: 2px 0 2px 0;
+    border-style: solid;
+    /**border-color: #e1e3e3;**/
+    border-color: rgba(225, 227, 227, 0.7);
+    height: 300px;
+    width: 100%;
+    
+}
+
+.img_topics{
+    float: left;
+    padding: 25px 20px 25px 20px;
+    margin: 0;
+    height: 250px;
+}
+
+.center{
+    text-align: center;
+}
+
+#pos_jobs{
+    text-align: center;
+}
+
+.jobs_own{
+    padding: 30px;
+    margin: 20px auto 20px auto;
+    display: inline-block;
+    width: 100px;
+}
+
+.jobs_img{
+    width: 80px;
+}
+
+.links_job{
+    text-decoration: none;
+    color:#4f5050;
+}
+
+.links_job:hover{
+    font-weight: bold;
+    color: #1d1d1d;
+    text-shadow: 0 0 25px #000;
+}
+
+
+.parallax{
+ /* Full height */
+ height: 100vh; 
+
+ position: relative;
+ opacity: 0.65;
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#parallax_job{
+    background-image: url('../img/wallpaper_job.png');
+}
+
+#parallax_person{
+    background-image: url('../img/wallpaper_person.png');
+}
+
+#parallax_experience{
+    background-image: url('../img/wallpaper_experience.png');
+}
+
+#parallax_contact{
+    background-image: url('../img/wallpaper_contact.png');
+}
+
+.topics{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: justify;
+    color: #000;
+  
+}
+
+
+/**FOOTER**/
+
+#footer_style{
+    text-decoration: none;
+    color: #4f5050;
+}
+
+#footer_style:visited{
+    color: #4f5050;
+}
+
+#footer_style:hover{
+    color: #1d1d1d;
+}
+
+#footer_style:active{
+    color: #b8b9b9;
+}
