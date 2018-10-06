@@ -2,6 +2,146 @@
     margin: 0;
     padding: 0;
 }
+
+/*------------MEDIA QUERIES------------------*/
+/* xs < 550*/
+@media screen and (max-width: 575px){
+    #section_who_iam h2, #section_exp h2, #section_soc h2{
+        font-size: 50px;
+    }
+
+    #section_who_iam h3, #section_exp h3, #section_soc h3{
+        font-size: 20px;
+    }
+
+    #section_who_iam span, #section_exp span, #section_soc span{
+        font-size: 15px;
+    }
+
+    #section_who_iam p, #section_exp p, #section_soc p{
+        font-size: 18px;
+    }
+
+    #section_job a{
+        font-size: 15px;
+    }
+
+    footer a, footer span{
+        font-size: 8pt;
+    }
+}
+
+/* SM */
+@media screen and (min-width: 576px){
+    #section_who_iam h2, #section_exp h2, #section_soc h2{
+        font-size: 35px;
+    }
+
+    #section_who_iam h3, #section_exp h3, #section_soc h3{
+        font-size: 20px;
+    }
+
+    #section_who_iam span, #section_exp span, #section_soc span{
+        font-size: 15px;
+    }
+
+    #section_who_iam p, #section_exp p, #section_soc p{
+        font-size: 18px;
+    }
+
+    #section_job a{
+        font-size: 18px;
+    }
+
+    footer a, footer span{
+        font-size: 9pt;
+    }
+}
+
+/*md*/
+@media screen and (max-width: 992px){
+    #section_who_iam h2, #section_exp h2, #section_soc h2{
+        font-size: 70px;
+    }
+
+    #section_who_iam h3, #section_exp h3, #section_soc h3{
+        font-size: 20px;
+    }
+
+    #section_who_iam span, #section_exp span, #section_soc span{
+        font-size: 15px;
+    }
+
+    #section_who_iam p, #section_exp p, #section_soc p{
+        font-size: 18pt;
+    }
+    
+    #section_job a{
+        font-size: 20px;
+    }
+
+    footer a, footer span{
+        font-size: 10pt;
+    }
+}
+
+/*lg*/
+@media screen and (max-width: 1200px){
+    #section_who_iam h2, #section_exp h2, #section_soc h2{
+        font-size: 70px;
+    }
+
+    #section_who_iam h3, #section_exp h3, #section_soc h3{
+        font-size: 20px;
+    }
+
+    #section_who_iam span, #section_exp span, #section_soc span{
+        font-size: 15px;
+    }
+
+    #section_who_iam p, #section_exp p, #section_soc p{
+        font-size: 18pt;
+    }
+    
+    #section_job a{
+        font-size: 20px;
+    }
+
+    footer a, footer span{
+        font-size: 12pt;
+    }
+
+}
+
+/*lg*/
+@media screen and (min-width: 1200px){
+    #section_who_iam h2, #section_exp h2, #section_soc h2{
+        font-size: 70px;
+    }
+
+    #section_who_iam h3, #section_exp h3, #section_soc h3{
+        font-size: 20px;
+    }
+
+    #section_who_iam span, #section_exp span, #section_soc span{
+        font-size: 15px;
+    }
+
+    #section_who_iam p, #section_exp p, #section_soc p{
+        font-size: 18pt;
+    }
+    
+    #section_job a{
+        font-size: 20px;
+    }
+
+    footer a, footer span{
+        font-size: 12pt;
+    }
+
+}
+
+/*---------- FINAL MEDIA QUERIES-------------*/
 html, body, .capa, section, .shadow{
     height: 100%;
     overflow: auto;
@@ -45,7 +185,6 @@ footer{
     padding: 20px;
     background-color: black;
     text-align: center;
-    font-size: 10pt;
 }
 
 footer span, footer a{
@@ -92,14 +231,12 @@ section{
 }
 
 #section_who_iam h2{
-    font-size: 70px;
     text-align: right;
     margin-bottom: 10px;
 }
 
 #section_who_iam p{
     padding: 5px;
-    font-size: 18pt;
     text-align: right;
 }
 
@@ -115,10 +252,26 @@ section{
 
 #section_job h2{
     text-align: center;
-    font-size: 70px;
     font-weight: bolder;
     letter-spacing: 0.07em;
     padding-bottom: 5%;
+}
+
+#section_job a{
+    letter-spacing: 0.07em;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;   
+}
+
+#section_job a:hover{
+    text-decoration: none;
+    color: #a1a1a1;
+}
+
+#section_job a:active{
+    text-decoration: none;
+    color: #949494;
 }
 
 #section_exp{
@@ -127,14 +280,17 @@ section{
 }
 
 #section_exp h2{
-    font-size: 70px;
     text-align: left;
     margin-bottom: 10px;
 }
 
 #section_exp p{
     padding: 5px;
-    font-size: 18pt;
+    text-align: left;
+}
+
+#section_exp span{
+    padding: 5px;
     text-align: left;
 }
 
@@ -145,7 +301,6 @@ section{
 
 #section_soc h2{
     text-align: center;
-    font-size: 70px;
     font-weight: bolder;
     letter-spacing: 0.07em;
     padding-bottom: 5%;
