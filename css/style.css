@@ -151,7 +151,7 @@
     }
 
     footer a, footer span{
-        font-size: 12pt;
+        font-size: 10pt;
     }
 
     #section_soc img{
@@ -197,6 +197,7 @@ body{
 
 .shadow{
     background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
     overflow-y: hidden;
 }
 
@@ -276,6 +277,14 @@ section{
     font-weight: bolder;
     letter-spacing: 0.07em;
     padding-bottom: 5%;
+}
+
+#section_exp h2, #section_who_iam h2{
+    text-shadow: 0px 0px 1px #4f5050;
+}
+
+#section_job h2, #section_soc h2, h1, h3{
+    text-shadow: 1px 1px 7px #000;
 }
 
 #section_job a{
